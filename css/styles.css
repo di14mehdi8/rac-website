@@ -155,6 +155,10 @@ section { padding: clamp(64px, 9vw, 130px) 0; }
   letter-spacing: .04em;
   text-align: center;
   padding: 8px 16px;
+  line-height: 1.5;
+}
+@media (max-width: 540px) {
+  .notice-bar { font-size: .72rem; padding: 7px 12px; letter-spacing: .02em; }
 }
 .notice-bar strong { color: var(--rac-gold); font-weight: 600; }
 .notice-bar a { color: #efe7d4; border-bottom: 1px solid rgba(255,255,255,.3); padding-bottom: 1px; }
